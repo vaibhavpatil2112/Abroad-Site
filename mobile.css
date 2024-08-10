@@ -1,0 +1,175 @@
+/* --------------------------------------------------------------------\-\-\- Media Queries -/-/-/------------------------------------------ */
+
+@media (max-width: 1200px) {
+    html {
+      font-size: 55%;
+    }
+    nav {
+      padding: 1.5rem 5rem;
+    }
+    nav ul li {
+      font-size: 2.7rem;
+    }
+    .btn2 {
+      font-size: 2.1rem;
+    }
+    .container h1 {
+      font-size: 7rem;
+    }
+    .container p {
+      font-size: 4rem;
+      margin-top: 5rem;
+    }
+    .btn1 {
+      margin-top: 10rem;
+      font-size: 3.3rem;
+    }
+    .country h1 {
+      font-size: 6rem;
+    }
+    .country p {
+      font-size: 2rem;
+    }
+    .city h2 {
+      font-size: 4rem;
+    }
+    .container2 h1 {
+      font-size: 6rem;
+    }
+    .container2 p {
+      font-size: 2rem;
+    }
+    .foot .link1 .link h3 {
+      font-size: 2.6rem;
+      padding-left: 2rem;
+    }
+    .foot .link1 .link p {
+      font-size: 1.6rem;
+      padding: 0.5rem 11px;
+    }
+    .foot .link1 .link a {
+      font-size: 1.9rem;
+      padding: 0.5rem 26px;
+    }
+    .foot .credit {
+      font-size: 3rem;
+      padding: 3rem 2rem;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    nav {
+      padding: 1.5rem 4rem;
+      padding-left: 4rem;
+      padding-right: 6rem;
+    }
+    nav ul li {
+      font-size: 2.3rem;
+    }
+    .btn2 {
+      font-size: 1.5rem;
+    }
+    .container h1 {
+      font-size: 5rem;
+    }
+    .container p {
+      font-size: 3rem;
+      margin-top: 4rem;
+    }
+    .btn1 {
+      margin-top: 7rem;
+      font-size: 2.3rem;
+    }
+    .country h1 {
+      margin-top: 1rem;
+      font-size: 5rem;
+    }
+    .country p {
+      margin-top: 2rem;
+      font-size: 1.9rem;
+    }
+    .city h2 {
+      font-size: 3.5rem;
+    }
+    .country p {
+      margin-top: 1rem;
+      font-size: 1.9rem;
+    }
+    .container1 .city a img {
+      width: 101%;
+      padding: 2rem 2rem 1rem 1rem;
+    }
+    .container2 h1 {
+      font-size: 5rem;
+      margin-top: 2rem;
+    }
+    .container2 p {
+      font-size: 1.7rem;
+      padding: 1rem 4rem 1rem 4rem;
+    }
+    .foot .link1 .link h3 {
+      font-size: 2.6rem;
+      padding-left: 2rem;
+    }
+    .foot .link1 .link p {
+      font-size: 1.6rem;
+      padding: 0.5rem 11px;
+    }
+    .foot .link1 .link a {
+      font-size: 1.9rem;
+      padding: 0.5rem 26px;
+    }
+    .foot .credit {
+      font-size: 3rem;
+      padding: 3rem 2rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+  }
+  
+  @media (max-width: 450px) {
+    html {
+      font-size: 50%;
+    }
+    .btn1 {
+      margin-top: 4rem;
+      font-size: 2.3rem;
+      margin-bottom: 4rem;
+    }
+    .container h1 {
+      font-size: 8rem;
+    }
+    .country p {
+      font-size: 3rem;
+    }
+    .country p {
+      font-size: 2rem;
+    }
+    .container1 {
+      font-size: 8vmin;
+      margin-top: 1rem;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .review .container3 {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .review h1 {
+      font-size: 3.4rem;
+    }
+    .review .container3 .rev .user img {
+      height: 11rem;
+      width: 11rem;
+    }
+    .review .container3 .rev .user h3 {
+      font-size: 2.5rem;
+    }
+    .review .container3 .rev .user .stars i {
+      font-size: 3rem;
+    }
+    .review .container3 .rev .user .comment {
+      font-size: 1.8rem;
+    }
+  }

@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abrox</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mobile.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,300&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+    <section>
+        <header>
+    <!-- ----------------------------------------\-\-\- Navbar section -/-/-/------------------------------------->
+
+            <nav class="svg">
+                <div class="im">
+
+                    <img class="im" src="./student-hat-2.svg" alt="" />
+
+
+                </div>
+                <div class="head">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="#">Courses</a>
+                    <a href="#prices">price</a>
+                    <a href="Login.html">Signin/up</a>
+                    <a class="btn" href="Contact.html">Contact</a>
+                    <form action="" class="search-bar-container">
+                        <input type="search" id="search-bar" placeholder="search here...">
+                        <label for="search-bar" class="fas fa-search"></label>
+                    </form>
+                    <div class="icons">
+                        <i class="fas fa-search" id="search-btn"></i>
+                    </div>  
+                </div>
+            </nav>
+             <!-- --------------------------------------\-\-\- Carousal section -/-/-/----------------------------------- -->
+    
+      <div class="carousel">
+        <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div class="carousel-indicators carousel-fade">
+            <button  type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="vid-btn active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" class="vid-btn" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" class="vid-btn" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" class="vid-btn" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" class="vid-btn" aria-label="Slide 5"></button>
+          </div>
+          <div class="carousel-inner carousel-fade">
+            <div class="carousel-item active carousel-fade">
+                <video src="./img/videos/pexels-evgenia-kirpichnikova-5956456.mp4" id="video-slider" class=" w-100" loop autoplay muted></video>
+    
+              <div class="bits carousel-caption d-none d-md-block">
+                <h1>WELCOME TO UNIVERSITIES</h1>
+                <h4>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil, vel, laborum ut excepturi voluptatibus  </h4>
+                <button class="btn btn-secondary">Explore More</button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <video src="./img/videos/Building - 90907.m4v" id="video-slider" class=" w-100" loop autoplay muted></video>
+              
+              <div class=" bits carousel-caption d-none d-md-block">
+                <h1>WELCOME TO UNIVERSITIES</h1>
+                <h4>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil, vel, laborum ut excepturi voluptatibus  </h4>
+                <button class="btn btn-secondary">Explore More</button>
+                
+              </div>
+            </div>
+            <div class="carousel-item">
+              <video src="./img/videos/production ID_4047765.mp4" id="video-slider" class=" w-100" loop autoplay muted></video>
+              
+              <div class=" bits carousel-caption d-none d-md-block">
+                <h1>WELCOME TO UNIVERSITIES</h1>
+                <h4>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil, vel, laborum ut excepturi voluptatibus  </h4>
+                <button class="btn btn-secondary">Explore More</button>
+                
+              </div>
+            </div>
+            <div class="carousel-item">
+              <video src="./img/videos/Cambridge - 18088.m4v" id="video-slider" class=" w-100" loop autoplay muted></video>
+              
+              <div class=" bits carousel-caption d-none d-md-block">
+                <h1>WELCOME TO UNIVERSITIES</h1>
+                <h4>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil, vel, laborum ut excepturi voluptatibus  </h4>
+                <button class="btn btn-secondary">Explore More</button>
+                
+              </div>
+            </div>
+            <div class="carousel-item">
+              <video src="./img/videos/Greenwich University - 21474.m4v" id="video-slider" class=" w-100" loop autoplay muted></video>
+    
+              <div class=" bits carousel-caption d-none d-md-block">
+                <h1>WELCOME TO UNIVERSITIES</h1>
+                <h4>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil, vel, laborum ut excepturi voluptatibus  </h4>
+                <button class="btn btn-secondary">Explore More</button>
+    
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+        </header>
+    </section>
+
+    <!-- ----------------------------------------\-\-\- Country section -/-/-/------------------------------------->
+
+    <section class="country">
+        <h1>Countries</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error esse ipsam optio quis id, similique blanditiis numquam repellat voluptas, quasi sed repudiandae inventore sapiente officia maxime maiores dolor, soluta recusandae?Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Corrupti tenetur provident officiis quis cum pariatur ab voluptate voluptatibus dignissimos laudantium voluptatem quod error atque harum ex, blanditiis odit eaque ipsa?
+        </p>
+
+        <div class="container1">
+
+            <div class="container12">
+                <div class="city">
+                    <a href="">
+                        <img src="./img/usa.jpg" alt="" />
+                    </a>
+                    <h2>UNITED STATES</h2>
+                    
+                </div>
+                <div class="city">
+                    <a href="">
+                        <img src="./img/canada3.jpg" alt="" />
+                    </a>
+                    <h2>CANADA</h2>
+                  
+                </div>
+                <div class="city">
+                    <a href="">
+                        <img src="./img/Germany.jpg" alt="" />
+                    </a>
+                    <h2>GERMANY</h2>
+                    
+                </div>
+            </div>
+
+        </div>
+        <div class="container1">
+            <div class="container12">
+
+
+                <div class="city">
+                    <a href="">
+                        <img src="./img/russia.jpg" alt="" />
+                    </a>
+                    <h2>RUSSIA</h2>
+                    
+                </div>
+                <div class="city">
+                    <a href="">
+                        <img src="./img/uk1.jpg" alt="" />
+                    </a>
+                    <h2>UNITED KINDOM</h2>
+                    
+                </div>
+                <div class="city">
+                    <a href="">
+                        <img src="./img/Aus5.jpg" alt="" />
+                    </a>
+                    <h2>AUSTRALIA</h2>
+                    
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <br />
+    <hr />
+
+      <!-- ...............................................................features section................................................. -->
+
+      <section class="section-2 container-fluid p-0">
+        <div class="cover">
+          <div class="overlay"></div>
+          <div class="content text-center">
+            <h1>Some Features That Made Us Unique</h1>
+            <p>
+              Why choose us?
+            </p>
+          <h2>Choose us and make your future bright!</h2>
+
+          </div>
+        </div>
+        <div class="container-fluid text-center">
+          <div class="numbers d-flex flex-md-row flex-wrap justify-content-center">
+            <div class="rect">
+              <img src="./img/study-removebg-preview.png" alt="">
+              <p>Study Material</p>
+            </div>
+            <div class="rect">
+              <img src="./img/fee-removebg-preview.png" alt="">
+  
+              <p>Minimum Fees</p>
+            </div>
+            <div class="rect">
+              <img src="./img/easy-removebg-preview.png" alt="">
+  
+              <p>Easy to use</p>
+            </div>
+            <div class="rect">
+              <img src="./img/guidance.png" alt="">
+  
+              <p>Proper Guidance</p>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- ---------------------------------------\-\-\- Library section -/-/-/-------------------------------------->
+    <section class="lab">
+
+        <div class="container2">
+            <div class="row">
+                <h1>LIBRARY</h1>
+                <div class="line"></div>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores nisi reprehenderit modi excepturi, voluptates unde officia possimus nostrum, impedit quidem commodi in ratione porro repellat placeat eligendi, earum perspiciatis vitae. Lorem, ipsum dolor
+                    sit amet consectetur.
+                </p>
+
+                <div class="lol">
+                    <ul>
+                        <a href="">
+                            <li>GRE </li>
+                        </a>
+                        <a href="">
+                            <li>IELTS</li>
+                        </a>
+                        <a href="">
+                            <li>TOFEL</li>
+                        </a>
+                       
+
+
+
+                    </ul>
+
+                </div>
+            </div>
+
+
+            <div class="library">
+                <div class="imgs">
+                    <img src="./img/library.jpg" alt="img not found" />
+                    <img src="./img/library1.jpg" alt="img not found" />
+                </div>
+
+                <div class="imags">
+                    <img src="./img/library2.jpg" alt="img not found" />
+                    <img src="./img/library6.jpg" alt="img not found" />
+                </div>
+
+
+
+
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <!-- --------------------------------------\-\-\- Review section -/-/-/------------------------------------  -->
+
+    <section class="review" id="review">
+        <h1>PEOPLE'S REVIEW</h1>
+        <div class="container3">
+            <div class="container31">
+                <div class="rev">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="./img/review.jpg" alt="img not found">
+                        <h3>James Smith</h3>
+
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+
+                        </div>
+                        <div class="comment">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis voluptatem veritatis libero animi pariatur cupiditate quas quis natus eveniet.
+                        </div>
+                    </div>
+
+                </div>
+                <div class="rev">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="./img/review3.jpg" alt="img not found">
+                        <h3>Charlotte Willson</h3>
+
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+
+                        </div>
+                        <div class="comment">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis voluptatem veritatis libero animi pariatur cupiditate quas quis natus eveniet.
+                        </div>
+                    </div>
+
+                </div>
+                <div class="rev">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="./img/review2.jpg" alt="img not found">
+                        <h3>Johnson</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+
+                        </div>
+                        <div class="comment">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis voluptatem veritatis libero animi pariatur cupiditate quas quis natus eveniet.
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ---------------------------------------\-\-\- Membership section -/-/-/------------------------------------>
+
+    <section class="prices" id="prices">
+        <h1>OUR PRICING PLAN</h1>
+        <div class="container4">
+            <!-- <div class="container41"> -->
+            <div class="box">
+                <h3>Basic</h3>
+                <div class="price">$20 <span>/Monthly</span></div>
+                <ul>
+                    <li><i class="fas fa-check"></i> 1000+ University</li>
+                    <li><i class="fas fa-check"></i> 20 applicatios </li>
+                    <li><i class="fas fa-times"></i> Study materials</li>
+                    <li><i class="fas fa-times"></i> Application Free </li>
+                </ul>
+                <a href="./membership/basic.html" class="btn">check out</a>
+
+            </div>
+            <div class="box">
+                <h3>Standard</h3>
+                <div class="price">$35 <span>/Monthly</span></div>
+                <ul>
+                    <li><i class="fas fa-check"></i> 1000+ University</li>
+                    <li><i class="fas fa-check"></i> 40 applications </li>
+                    <li><i class="fas fa-check"></i> Study materials</li>
+                    <li><i class="fas fa-times"></i> Application Free</li>
+                </ul>
+                <a href="./membership/standared.html" class="btn">check out</a>
+
+            </div>
+            <div class="box">
+                <h3>Premium</h3>
+                <div class="price">$50 <span>/Monthly</span></div>
+                <ul>
+                    <li><i class="fas fa-check"></i> 1000+ University</li>
+                    <li><i class="fas fa-check"></i> 100+ applications </li>
+                    <li><i class="fas fa-check"></i> Study material & Mock Interview</li>
+                    <li><i class="fas fa-check"></i> Application Free</li>
+                </ul>
+                <a href="./membership/premium.html" class="btn">check out</a>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-----------------------------------------\-\-\- Footer section -/-/-/-------------------------------------->
+
+    <footer>
+        <div class="foot">
+            <div class="link1">
+                <div class="link">
+                    <h3>About Us</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione ea rerum perferendis facere obcaecati ut molestiae ipsam voluptas aliquam, odit eum, iure quaerat, dolorem error aperiam. Nihil quo quos modi.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione ea rerum perferendis facere obcaecati ut molestiae ipsam voluptas aliquam, odit eum, iure quaerat, dolorem error aperiam. Nihil quo quos modi.
+                    </p>
+
+
+
+                </div>
+                <div class="link">
+                    <h3>Quick Links</h3>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="index.html">Courses</a>
+                    <a href="#prices">price</a>
+                    <a href="#review">review</a>
+                    <a href="Login.html">Signin/up</a>
+                    <a href="Contact.html">Contact</a>
+
+                </div>
+                <div class="link">
+                    <h3>Follow us</h3>
+                    <a href="">Facebook</a>
+                    <a href="">Instagram</a>
+                    <a href="">Twitter</a>
+                    <a href="">LinkedIn</a>
+
+                </div>
+                <div class="link">
+                    <h3>Contact Info</h3>
+
+                    <div class="info">
+                        <i class="fas fa-phone"></i>
+
+                        <p>+91 265 891 6454</p>
+                        <p>+91 348 783 2719</p>
+                    </div>
+                    <div class="info">
+                        <i class="fas fa-envelope"></i>
+
+                        <p>GlobalUt@gmail.com</p>
+                        <p>Universityofficial@gmail.com</p>
+                    </div>
+                    <div class="info">
+                        <i class="fas fa-map-marker-alt"></i>
+
+                        <p>Mumbai| India- 400261</p>
+                    </div>
+                </div>
+
+            </div>
+            <h1 class="credit">&copy; copyright @ 2021 by <span>Mr. vabs</span> | all rights reserved! </h1>
+        </div>
+        </div>
+        </div>
+    </footer>
+    <!-- -----------------------------------\-\-\- social media start -/-/-/--------------------------------- -->
+
+
+
+
+    <div class="icon-bar">
+        <a href="#" class="facebook" target="">click here to visit <i class="fab fa-facebook-square"></i>
+          </a>
+
+
+        <a href="#" class="telegram" target=""> click here to visit <i class="fab fa-telegram-plane"></i>
+          </a>
+
+
+        <a href="#" class="instagram" target="">click here to visit <i class="fab fa-instagram"></i>
+          </a>
+
+
+        <a href="#" class="linkedin" target="">click here to visit <i class="fab fa-linkedin"></i>
+          </a>
+
+
+        <a href="#" class="youtube" target="">click here to visit <i class="fab fa-youtube-square"></i>
+          </a>
+
+            </div>
+
+    <!-- --------------------------------\-\-\- Scroll Bar -/-/-/----------------------------------------------- -->
+    <div class="scroll">
+        <i class="fas fa-angle-up"></i>
+      </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+    <script src="app.js"></script>
+
+</body>
+
+</html>

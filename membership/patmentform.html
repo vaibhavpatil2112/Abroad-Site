@@ -1,0 +1,179 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment form</title>
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Aladin&family=Anton&family=Roboto:wght@100;300;400;500;700;900&family=Yellowtail&display=swap');
+        /* font-family: 'Aladin', cursive;
+font-family: 'Anton', sans-serif;
+font-family: 'Yellowtail', cursive; */
+        *{
+            box-sizing: border-box;
+        }
+        form{
+            justify-content: center;
+        }
+        body{
+            font-family:Roboto ;
+            font-weight: bolder;
+        }
+        .pay{
+            text-align: center;
+            /* background: linear-gradient(
+                        42deg, #ed0505, #00000075) */
+        }
+        h1{
+            font-family: Aladin;
+            color:white;
+            background-color: black;
+            background: linear-gradient(9deg, black, #000000b8);
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 0.25cm;
+            border: 1px solid lightgray;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 15px 30px;
+            
+        }
+        h2{
+            color: white;
+            justify-content: center;
+            margin: 0 auto;
+            text-align: center;
+            padding: .5rem 0rem;
+            line-height: 1rem;
+            border: 1px solid lightgray;
+            border-radius: 5px;
+        }  
+        h2 span{
+            background: linear-gradient(45deg, rgb(0, 0, 0),rgb(186 169 169 / 83%));
+            padding: .5rem 5rem;
+        }
+        .hi{
+            color: white;
+            font-size: 20px;
+            color: black;
+            text-size-adjust: 20px;
+            border: 1px solid lightgray;
+            border-radius: 5px;
+            padding: .5rem  1rem;
+            margin: 15px 30px;
+            font-weight: bolder;
+
+        }
+        .hi input{
+            padding: .2rem .5rem;
+            margin-left: .5rem;
+            font-size: 1.1rem;
+            color: black !important;
+        }
+        input[type="submit"]{
+            width:15rem;
+            justify-content: center;
+            text-align: center;
+            margin:  0 auto;
+            color: white;
+            background-color: rgb(235, 16, 16);
+            font-style: italic;
+            font-size: 20px;
+            border: 1px solid lightgray;
+            border-radius: 5px;
+            padding: 8px;
+            cursor: pointer;
+            margin: 15px 30px;
+        }
+        .container{
+            background-color: #f2f2f2;
+            padding: 20px 25px 30px 30px;
+            border: 1px solid gray;
+            border-radius: 5px;
+        }
+      
+        p{
+            padding: .2rem .5rem;
+
+        }
+        p i {
+            position: relative;
+            margin-top: .5rem;
+            font-size: 1.8rem;
+            color: blue;
+            margin-right: .5rem;
+
+        }
+        h2 i{
+            position: relative;
+            margin-top: .5rem;
+            font-size: 1.8rem;
+            color: crimson;
+            margin-right: .5rem;
+        }
+        .pro{
+            background: linear-gradient(45deg, rgb(0, 0, 0),rgb(186 169 169 / 83%));
+            padding: 15px;
+            width: 100;
+            }
+        .ji{
+            background: linear-gradient(33deg, #ef0a0a, #000000d9);
+            transition: .4s;
+        }
+        .ji:hover{
+            transform: scale(1.1);
+            box-shadow: 0 .5rem 1rem rgb(48, 44, 44);
+        }
+
+        </style>
+
+</head>
+<body>
+    <div class="container">
+    <form:action>
+    <h1>Payment form</h1>
+    <p>Required filds are followed by *</p>
+    <h2><span><i class='bx bxs-phone-call bx-tada'></i> Contact information</span> </h2>
+    <p class="hi">Name: *  <input type="text" name="name" placeholder="enter your name" required></p>
+
+    <fieldset class="hi">
+
+      <legend>Gender</legend>
+         <p class="gender">
+          male * <input type="radio" name="gender" id="male" required>
+          female <input type="radio" name="gender" id="female">
+        </p>
+    </fieldset>
+    <p class="hi">address: * <textarea name="address" id="address" height:="" 97px;="" width:451px;="" placeholder="enter your address" style="margin: 0px; width: 432px; height: 104px;"></textarea></p>
+    <p class="hi">Email: *  <input type="email" name="email" id="email" required placeholder="vaibhav@123"></p>
+    <p class="hi">pincode: * <i class='bx bx-user-pin bx-burst' ></i>  <input type="number" name="pincode" id="pincode" required placeholder="425001"></p>
+    <h2 class="pro">payment information</h2> 
+    <p class="hi">card type: <i class='bx bxs-credit-card-alt bx-tada' ></i>
+        <select name="card type" id="card type">
+            <option value=""--select a card type></option>
+            <option value="visa">Visa</option>
+            <option value="rupay">Rupay</option>
+            <option value="master card">Master card</option>
+            
+        </select>
+    </p>
+    <p class="hi">
+        card number: *  <input type="number" name="card number" id="card number" required placeholder="43521345679">
+    </p>
+   
+    <p class="hi">
+        expiration date: *  <input type="date" name="exp-date" id="exp-date" required placeholder="13\23">
+    </p>
+    <p class="hi">
+        cvv: *  <input type="password" name="cvv" id="cvv" required placeholder="123">
+        
+    </p>  
+    <div class="pay">  <i class='bx bx-money bx-burst' ></i>
+        <input class="ji" type="submit" value="pay now"> 
+    </div>
+</form:action>
+</div>
+</body>
+</html>
